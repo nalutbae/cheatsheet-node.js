@@ -1,0 +1,9 @@
+{
+    "name": "design-patterns",
+    "version": "0.0.1",
+    "description": "Design patterns of Gof.",
+    "devDependencies": {
+        "eslint": "8.56.0",
+        "eslint-config-airbnb-base": "15.0.0"
+    }
+}
