@@ -1,4 +1,5 @@
 // singleton class is a class that can only be instantiated once
+
 class Singleton {
   constructor() {
     if (!Singleton.instance) {

@@ -1,4 +1,5 @@
 // example of prototype design pattern
+
 function Person(name, age) {
   this.name = name;
   this.age = age;

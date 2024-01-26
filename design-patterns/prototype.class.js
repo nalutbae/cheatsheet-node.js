@@ -1,4 +1,5 @@
 // class example of prototype design pattern
+
 class Person {
   constructor(name, age) {
     this.name = name;
