@@ -27,9 +27,16 @@ Creational patterns are ones that create objects for you, rather than having you
   - [Examples implemented using class](./prototype.class.js)
 
 - **Singleton**: ensure a class has only one instance, and provide a global point of access to it.
-- - [Examples implemented using function](./singleton.function.js)
+  - [Examples implemented using function](./singleton.function.js)
   - [Examples implemented using class](./singleton.class.js)
 
 ## Structural Patterns
+
+Structural patterns are associated with class and object configuration.Use the inheritance to configure the interface and configure the object to define a new feature.
+
+- **Adapter**: A class with an uninterrupted interface is wrapped around the class where it already exists so that it can work together.
+
+  - [Examples implemented using function](./adapter.function.js)
+  - [Examples implemented using class](./adapter.class.js)
 
 ## Behavioral Patterns
