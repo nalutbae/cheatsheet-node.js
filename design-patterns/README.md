@@ -39,4 +39,9 @@ Structural patterns are associated with class and object configuration.Use the i
   - [Examples implemented using function](./adapter.function.js)
   - [Examples implemented using class](./adapter.class.js)
 
+- Bridge: Separate abstraction from the implementation so that the two can be changed independently.
+
+  - [Examples implemented using function](./bridge.function.js)
+  - [Examples implemented using class](./bridge.class.js)
+
 ## Behavioral Patterns
