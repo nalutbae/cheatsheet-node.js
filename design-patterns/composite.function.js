@@ -33,7 +33,7 @@ function createDirectory(name, parent) {
 
     display: function () {
       console.log(
-        `${"│    ".repeat(getDepth(this))}└───Directory: ${this.name}`
+        `${"│    ".repeat(getDepth(this))}├───Directory: ${this.name}`
       );
       this.children.forEach((child) => {
         child.display();
@@ -67,3 +67,10 @@ root.add(file1);
 folder1.add(file2);
 
 root.display();
+/**
+├───Directory: Root
+│    ├───Directory: Folder 1
+│    │    ├───File: File 2
+│    ├───Directory: Folder 2
+│    ├───File: File 1
+ */

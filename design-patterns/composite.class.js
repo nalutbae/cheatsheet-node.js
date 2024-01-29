@@ -7,16 +7,12 @@ class FileSystemItem {
     this.parent = parent;
   }
 
-  // 자식 요소 추가
   add(item) {}
 
-  // 자식 요소 제거
   remove(item) {}
 
-  // 자식 요소 반환
   getChild(index) {}
 
-  // 파일 시스템 아이템 출력
   display() {}
 }
 
@@ -30,7 +26,6 @@ class File extends FileSystemItem {
     console.log(`${"│    ".repeat(this.getDepth())}├───File: ${this.name}`);
   }
 
-  // 깊이 계산
   getDepth() {
     let depth = 0;
     let current = this.parent;
@@ -67,7 +62,7 @@ class Directory extends FileSystemItem {
 
   display() {
     console.log(
-      `${"│    ".repeat(this.getDepth())}└───Directory: ${this.name}`
+      `${"│    ".repeat(this.getDepth())}├───Directory: ${this.name}`
     );
     this.children.forEach((child) => {
       child.display();
@@ -100,3 +95,10 @@ root.add(file1);
 folder1.add(file2);
 
 root.display();
+/**
+├───Directory: Root
+│    ├───Directory: Folder 1
+│    │    ├───File: File 2
+│    ├───Directory: Folder 2
+│    ├───File: File 1
+ */
