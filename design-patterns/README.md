@@ -49,4 +49,9 @@ Structural patterns are associated with class and object configuration.Use the i
   - [Examples implemented using function](./composite.function.js)
   - [Examples implemented using class](./composite.class.js)
 
+- **Decorator**: This is a pattern that dynamically adds or finances the existing method.
+
+  - [Examples implemented using function](./decorator.function.js)
+  - [Examples implemented using class](./decorator.class.js)
+
 ## Behavioral Patterns
