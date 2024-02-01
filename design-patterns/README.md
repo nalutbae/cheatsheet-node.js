@@ -64,4 +64,9 @@ Structural patterns are associated with class and object configuration.Use the i
   - [Examples implemented using function](./flyweight.function.js)
   - [Examples implemented using class](./flyweight.class.js)
 
+- **Proxy**: It is a pattern that provides a proxy for other objects to control access to that object or provide additional functions.With this pattern, the client allows you to indirectly approach the actual object and indirectly through the representative.This is used for various purposes such as the creation and initialization of the object, access control, caching, and logging.
+
+  - [Examples implemented using function](./proxy.function.js)
+  - [Examples implemented using class](./proxy.class.js)
+
 ## Behavioral Patterns
