@@ -59,4 +59,9 @@ Structural patterns are associated with class and object configuration.Use the i
   - [Examples implemented using function](./facade.function.js)
   - [Examples implemented using class](./facade.class.js)
 
+- **Flyweight**: This pattern is a pattern for efficiently handling a large number of similar objects.This pattern shares objects to optimize memory usage and improve performance.It is mainly implemented by sharing the unchanging part of the object's condition.
+
+  - [Examples implemented using function](./flyweight.function.js)
+  - [Examples implemented using class](./flyweight.class.js)
+
 ## Behavioral Patterns
