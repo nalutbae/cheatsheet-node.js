@@ -54,4 +54,9 @@ Structural patterns are associated with class and object configuration.Use the i
   - [Examples implemented using function](./decorator.function.js)
   - [Examples implemented using class](./decorator.class.js)
 
+- **Facade**: Provides a simplified interface for large scale code texts.
+
+  - [Examples implemented using function](./facade.function.js)
+  - [Examples implemented using class](./facade.class.js)
+
 ## Behavioral Patterns

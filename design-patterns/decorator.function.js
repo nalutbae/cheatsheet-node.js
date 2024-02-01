@@ -35,7 +35,7 @@ function addSugar(coffee) {
   };
 }
 
-// 사용 예제
+// Usage
 let myCoffee = createSimpleCoffee();
 console.log(myCoffee.getDescription(), "- Cost:", myCoffee.cost() + "€");
 

@@ -62,7 +62,7 @@ class SugarDecorator extends CoffeeDecorator {
   }
 }
 
-// 사용 예제
+// Usage
 let myCoffee = new SimpleCoffee();
 console.log(myCoffee.getDescription(), "- Cost:", myCoffee.cost() + "€");
 
