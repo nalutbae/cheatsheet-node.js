@@ -32,7 +32,9 @@ Creational patterns are ones that create objects for you, rather than having you
 
 ## Structural Patterns
 
-Structural patterns are associated with class and object configuration.Use the inheritance to configure the interface and configure the object to define a new feature.
+The Structural pattern is a pattern that creates a new feature or complex structure by combining classes or objects into a larger structure.These patterns can organize and organize the relationship between classes and objects to flexibly and expand the structure of the software.
+
+Structural patterns mainly use the inheritance, synthesis and configuration of the object to organize the elements of the system.These patterns can be used for various purposes:
 
 - **Adapter**: A class with an uninterrupted interface is wrapped around the class where it already exists so that it can work together.
 
@@ -70,3 +72,18 @@ Structural patterns are associated with class and object configuration.Use the i
   - [Examples implemented using class](./proxy.class.js)
 
 ## Behavioral Patterns
+
+The Behavioral pattern is a pattern that organizes the interaction between objects and classes, and is designed around the behavior between objects.This pattern defines the responsibilities, roles, and cooperation between objects to organize and manage the operation of the system.
+
+Behavioral patterns are mainly operated around objects between objects, and can be used for the following purposes:
+
+It encapsulates the behavior between objects to increase flexibility: encapsulates the behavior of the object to minimize the impact on changes and increase reuse.
+
+Defining and organizing relationships between objects: clearly defines the interaction between objects to improve the readability of the code and facilitate maintenance.
+
+Make the operation of the system flexibly: using various behavior patterns to support dynamic interactions between objects to improve the flexibility of the system.
+
+- **Observer**: Defining a one -to -one dependency between objects, so that if the state of an object is changed, other objects related to this automatically receive the notification.
+
+  - [Examples implemented using function](./observer.function.js)
+  - [Examples implemented using class](./observer.class.js)
