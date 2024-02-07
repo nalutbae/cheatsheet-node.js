@@ -87,3 +87,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./observer.function.js)
   - [Examples implemented using class](./observer.class.js)
+
+- **Strategy**: It is a pattern that allows you to dynamically change the object's actions. This defines multiple algorithms that perform the same tasks and can be replaced by encapsulating these algorithms. Strategy patterns can minimize the effects of existing code when changing or expanding the implementation of the algorithm.
+
+  - [Examples implemented using function](./strategy.function.js)
+  - [Examples implemented using class](./strategy.class.js)
