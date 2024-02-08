@@ -92,3 +92,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./strategy.function.js)
   - [Examples implemented using class](./strategy.class.js)
+
+- **Command**: It encapsulates the request in the form of an object to parameters, and supports the connectivity with different requests, cues or logs, cancellation of requests and other requests.This pattern allows you to reduce the combination between objects receiving requests and objects that handle requests, and change or expand objects that handle requests.
+
+  - [Examples implemented using function](./command.function.js)
+  - [Examples implemented using class](./command.class.js)
