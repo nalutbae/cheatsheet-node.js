@@ -97,3 +97,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./command.function.js)
   - [Examples implemented using class](./command.class.js)
+
+- **Iterator**: By listing elements in the collection sequentially and hiding it, we hide the details of the internal structure of the collection.
+
+  - [Examples implemented using function](./iterator.function.js)
+  - [Examples implemented using class](./iterator.class.js)
