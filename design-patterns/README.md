@@ -102,3 +102,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./iterator.function.js)
   - [Examples implemented using class](./iterator.class.js)
+
+- **Chain of Responsibility** It is a pattern that creates a connection between the objects that handles the request, delivers them sequentially, and delivers them to the next object until each object processes the request.This pattern allows you to secure flexibility by separating objects that send requests and objects that handle requests.
+
+  - [Examples implemented using function](./chain.of.responsibility.function.js)
+  - [Examples implemented using class](./chain.of.responsibility.class.js)
