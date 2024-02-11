@@ -107,3 +107,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./chain.of.responsibility.function.js)
   - [Examples implemented using class](./chain.of.responsibility.class.js)
+
+- **State**: The state pattern is a pattern that allows you to change the behavior of the object according to the internal state of the object.It is useful if an object needs to perform different actions for each state.For example, if the method of handling the order depends on the order status, the state pattern can be used.
+
+  - [Examples implemented using function](./state.function.js)
+  - [Examples implemented using class](./state.class.js)
