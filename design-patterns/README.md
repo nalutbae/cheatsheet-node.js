@@ -112,3 +112,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./state.function.js)
   - [Examples implemented using class](./state.class.js)
+
+- **Mediator**: It is a pattern that encapsulates the interaction between objects to remove direct communication between objects and interacts through intermediary objects.This pattern can reduce the combination between objects and increase flexibility.
+
+  - [Examples implemented using function](./mediator.function.js)
+  - [Examples implemented using class](./mediator.class.js)
