@@ -117,3 +117,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./mediator.function.js)
   - [Examples implemented using class](./mediator.class.js)
+
+- **Memeto**: The MEMENTO pattern is a pattern that can save the status of the object and restore it later.This pattern allows you to encapsulate the internal status of an object and protect it from changing the state from outside.
+
+  - [Examples implemented using function](./memonto.function.js)
+  - [Examples implemented using class](./memonto.class.js)
