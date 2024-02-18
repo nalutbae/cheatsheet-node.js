@@ -127,3 +127,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./template.function.js)
   - [Examples implemented using class](./template.class.js)
+
+- **Visitor**: This pattern is used when you want to add new movements while crossing the object structure.This pattern allows you to add new movements without changing the class of the object.
+
+  - [Examples implemented using function](./visitor.function.js)
+  - [Examples implemented using class](./visitor.class.js)
