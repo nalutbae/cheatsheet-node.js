@@ -122,3 +122,8 @@ Make the operation of the system flexibly: using various behavior patterns to su
 
   - [Examples implemented using function](./memonto.function.js)
   - [Examples implemented using class](./memonto.class.js)
+
+- **Template**: It is a pattern that defines the structure of the algorithm and enables some steps to implement some steps in the subclass.This allows you to change the entire algorithm by re -implementing some steps of the algorithm.
+
+  - [Examples implemented using function](./template.function.js)
+  - [Examples implemented using class](./template.class.js)
